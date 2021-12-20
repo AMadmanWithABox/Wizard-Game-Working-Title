@@ -2,41 +2,41 @@ package com.example.wizardgame;
 
 public enum Spells {
     //story
-    Portal, Broom, Selfillusion, Snowball, Bookspower, Minorillusion, Placeholder11, Placeholder12, Placeholder13, Placeholder14, Placeholder15, Placeholder16,
+    Portal, Broom, SelfIllusion, Snowball, BooksPower, MinorIllusion, PlaceHolder11, PlaceHolder12, PlaceHolder13, PlaceHolder14, PlaceHolder15, PlaceHolder16,
     //fire
-    Firebolt, Fireball, Createbonfire, Fireshield, Crimsonrose, Investitureofheat,
+    FireBolt, Fireball, CreateBonFire, FireShield, CrimsonRose, InvestitureOfHeat,
     //ice
-    Iceknife, Frostbite, Investitureofcold, Wallofice, Icestorm, Coneofcold,
+    IceKnife, Frostbite, InvestitureOfCold, WallOfIce, IceStorm, ConeOfCold,
     //oze
-    Acidarrow, Acidsplash, Summonslime, Absorbelements, Hunger, Clone,
+    AcidArrow, AcidSplash, SummonSlime, AbsorbElements, Hunger, Clone,
     //water
-    Controlwater, Splash, Rain, Bubblerefresher, Tsunami, Wallofwater,
+    ControlWater, Splash, Rain, BubbleRefresher, Tsunami, WallOfWater,
     //earth
-    Investitureofstone, Stoneskin, Earthtremor, Guardianofstone, Wallofstone, Stoneprison,
+    InvestitureOfStone, StoneSkin, EarthTremor, GuardianOfStone, WallOfStone, StonePrison,
     //air
-    Catapult, Controlwinds, Investitureofwinds, Gust, Windstrike, Whirlwind,
+    Catapult, ControlWinds, InvestitureOfWinds, Gust, WindStrike, Whirlwind,
     //life
-    Barkskin, Summonent, Enlarge, Graspingvine, Guardianofnature, Thornwhip,
+    BarkSkin, SummonEnt, Enlarge, GraspingVine, GuardianOfNature, ThornWhip,
     //metal
-    Investitureofiron, Heatmetal, Guardianofsteel, Spikeshot, Summonmagicsword, Ironmaiden,
+    InvestitureOfIron, HeatMetal, GuardianOfSteel, SpikeShot, SummonMagicSword, IronMaiden,
     //steam
-    Blur, Investitureoffog, Fogcloud, Gaseousform, Sleep, Cloudkill,
+    Blur, InvestitureOfFog, FogCloud, GaseousForm, Sleep, CloudKill,
     //poison
-    Fear, Poisonspray, Sickeningradiance, Poisoncloud, Tipedthornarmor, Corruption,
+    Fear, PoisonSpray, SickeningRadiance, PoisonCloud, TippedThornArmor, Corruption,
     //lightning
-    Chainlightning, Lightningbolt, Guardianofthunder, Summonstorm, Thunderclap, Thunderstep,
+    ChainLightning, LightningBolt, GuardianOfThunder, SummonStorm, Thunderclap, ThunderStep,
     //sound
-    Healingword, Charm, Command, Dissonantwhispers, Powerwordkill, Powerwordstun,
+    HealingWord, Charm, Command, DissonantWhispers, PowerWordKill, PowerWordStun,
     //soul
-    Astralprojection, Deathward, Dream, Guardianofdream, Healingspirit, Phantasmalkiller,
+    AstralProjection, DeathWard, Dream, GuardianOfDream, HealingSpirit, PhantasmalKiller,
     //light
-    Dawn, Heal, Daylight, Investitureofsun, Guardianoflight, Sunbeam,
+    Dawn, Heal, Daylight, InvestitureOfSun, GuardianOfLight, Sunbeam,
     //dark
-    Shadowarms, Summonshadow, Investitureofmoon, Moonbeam, Eldritchblast, Darkness,
+    ShadowArms, SummonShadow, InvestitureOfMoon, Moonbeam, EldritchBlast, Darkness,
     //gravity
-    Darkstar, Forcewave, Wallofforce, Gravityfissure, Magicmissile, Magnifygravity,
+    DarkStar, ForceWave, WallOfForce, GravityFissure, MagicMissile, MagnifyGravity,
     //wild
-    Chaosbolt, Summonelemental, Investitureofchaos, Chromaticblast, Coinflip, Createanti, Createvoid, Createartha,
+    ChaosBolt, SummonElemental, InvestitureOfChaos, ChromaticBlast, CoinFlip, CreateAnti, CreateVoid, CreateArtha,
     //null
     Null
 }
