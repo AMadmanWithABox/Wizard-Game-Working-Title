@@ -1,10 +1,6 @@
 package com.example.wizardgame;
 
-public class Spellz{
-    //spells
-    spell name;
-}
-enum spell {
+public enum Spells {
     //story
     portal, broom, selfillusion, snowball, bookspower, minorillusion, placeholder11, placeholder12, placeholder13, placeholder14, placeholder15, placeholder16,
     //fire
