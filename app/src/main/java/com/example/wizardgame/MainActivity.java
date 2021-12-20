@@ -7,13 +7,15 @@ import android.os.Bundle;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
-
+    ListOfSpells listOfSpells = new ListOfSpells();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         getSupportActionBar().hide();
     }
+
 
     /** random number generator.
      *  generates number between min and max then displays to System.out
