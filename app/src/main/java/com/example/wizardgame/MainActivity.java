@@ -17,6 +17,14 @@ public class MainActivity extends AppCompatActivity {
     //random number generator. will generate number between min and max.
     //comment is for commenting into system out so we can see what number
     //got generated and why.
+
+    /**
+     *
+     * @param min
+     * @param max
+     * @param comment
+     * @return
+     */
     public int Random(int min, int max,String comment) {
         Random random = new Random();
         Integer randInt = random.nextInt((max - min) + 1) + min;
