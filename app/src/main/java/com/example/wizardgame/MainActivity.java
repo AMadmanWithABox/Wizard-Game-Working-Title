@@ -12,20 +12,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        random(0,0,"lol");
     }
 
-    //random number generator. will generate number between min and max.
-    //comment is for commenting into system out so we can see what number
-    //got generated and why.
-
-    /**
-     *
-     * @param min
-     * @param max
-     * @param comment
+    /** random number generator.
+     *  generates number between min and max then displays to System.out
+     * @param min minimum number
+     * @param max maximum number
+     * @param comment comment for System out so we can see why number generated
      * @return
      */
-    public int Random(int min, int max,String comment) {
+    public int random(int min, int max,String comment) {
         Random random = new Random();
         Integer randInt = random.nextInt((max - min) + 1) + min;
         System.out.println(randInt + " " + comment);
