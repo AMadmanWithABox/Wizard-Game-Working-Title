@@ -4,11 +4,11 @@ public enum Spells {
     //story
     Portal, Broom, SelfIllusion, Snowball, BooksPower, MinorIllusion, PlaceHolder11, PlaceHolder12, PlaceHolder13, PlaceHolder14, PlaceHolder15, PlaceHolder16,
     //fire
-    FireBolt, Fireball, CreateBonFire, FireShield, CrimsonRose, InvestitureOfHeat,
+    FireBolt, Fireball, CreateBonFire, FireShield, CrimsonRose, InvestitureOfHeat, SummonFireElemental, FireBlade, SummonHellHound,
     //ice
-    IceKnife, Frostbite, InvestitureOfCold, WallOfIce, IceStorm, ConeOfCold,
+    IceKnife, Frostbite, InvestitureOfCold, WallOfIce, Blizzard, ConeOfCold, Freeze, SummonIceElemental, IceArmor,
     //oze
-    AcidArrow, AcidSplash, SummonSlime, AbsorbElements, Hunger, Clone,
+    AcidArrow, AcidSplash, SummonSlime, AbsorbElements, Hunger, Clone, SummonGreaterSlime, InvestitureOfSlime, AcidRain, SummonBabySlime,
     //water
     ControlWater, Splash, Rain, BubbleRefresher, Tsunami, WallOfWater,
     //earth
